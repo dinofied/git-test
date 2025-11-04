@@ -1,0 +1,77 @@
+[gd_scene load_steps=2 format=3 uid="uid://b614rqm010mhs"]
+
+[ext_resource type="Texture2D" uid="uid://crthatu60fw5s" path="res://icon.svg" id="1_mn6xx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-479, -213)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon"]
+position = Vector2(-6, 124)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon"]
+position = Vector2(-6, 124)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon"]
+position = Vector2(125, 1)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon"]
+position = Vector2(111, 1)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(196, -259)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(1, 127)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(116, -128)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(-123, 253)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(253, -252)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(-126, 251)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(122, -124)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(3, 125)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(219, -250)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(-1, 120)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(6, 132)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(123, 8)
+texture = ExtResource("1_mn6xx")
+
+[node name="Icon" type="Sprite2D" parent="Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon/Icon"]
+position = Vector2(118, 3)
+texture = ExtResource("1_mn6xx")
